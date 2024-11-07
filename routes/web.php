@@ -18,13 +18,13 @@ use App\Http\Controllers\Admin\ContactDetailsController;
 use App\Http\Controllers\Admin\GalleryController as AdminGalleryController;
 use App\Http\Controllers\Admin\HeaderImageController;
 use App\Http\Controllers\Admin\AboutImageController;
-use App\Http\Controllers\admin\SliderController;
-use App\Http\Controllers\admin\ServiceController;
+use App\Http\Controllers\Admin\SliderController;
+use App\Http\Controllers\Admin\ServiceController;
 use App\Http\Controllers\PricingPackageController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\Admin\AdminCommentController;
 use App\Http\Controllers\Admin\Auth\LoginController;
-use App\Http\Controllers\admin\AdminProfileController;
+use App\Http\Controllers\Admin\AdminProfileController;
 use App\Http\Controllers\Admin\Auth\ForgotPasswordManager;
 
 
