@@ -18,7 +18,7 @@
 | **Notifications** | Real‑time alerts via AJAX polling |
 | **E‑mail** | SMTP integration for confirmations & reminders |
 | **Languages** | English · Azerbaijani · Russian |
-| **Mini‑CMS** | Blog, FAQ, gallery, contact page |
+| **CMS** | Blog, FAQ, gallery, contact page |
 | **Role-Based Access** | Admin, Dentist, Reception panels |
 | **Frontend** | HTML, CSS, Bootstrap, jQuery (no SPA or Vue) |
 
@@ -41,14 +41,11 @@
 git clone https://github.com/gulrah/dentist-reservation-system.git
 cd dentist-reservation-system
 
-# backend setup
+# setup
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 
-# frontend
-npm install
-npm run build        # or: npm run dev
 
 php artisan serve    # http://localhost:8000
